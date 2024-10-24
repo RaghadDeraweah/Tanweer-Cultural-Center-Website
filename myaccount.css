@@ -1,0 +1,224 @@
+body {
+    background-image: url("img/img2.PNG");
+    background-size: cover;
+    margin:0;
+    padding: 0;
+    height:100%;
+
+}
+.navbar{
+    margin-top: 20px;
+    width: 80%;
+
+    display: flex;
+    align-items: center;
+    margin-right: 156px;
+
+}
+ul{
+    border-radius: 21px;
+    border-style: solid;
+    border-color: #9b7e5361;
+    flex: 1;
+    text-align: right;
+}
+
+ul li{
+    display: inline-block;
+    list-style: none;
+    background-color: #ffffff38;
+    border-style: solid;
+    border-color: #9b7e5361;
+    border-radius: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin: 2px 9px;
+}
+* {
+    box-sizing: border-box;
+    font-family: Calibri, serif;
+}
+
+li:hover a{
+    transition: 0.5s;
+    color: white;
+}
+li:hover{
+    background-color:#8f6a335c;
+    transition: 0.5s;
+}
+ul li a{
+    text-decoration: none;
+    color: black;
+    font-family: Calibri, serif;
+    font-size: 18pt;
+    font-weight: bold;
+}
+.myacount {
+    background-color:#8f6a335c;
+    transition: 0.5s;
+    color: white;
+}
+.myacount a{
+    color: white;
+}
+.inside{
+    border-color: #8f6a335c;
+    border: solid;
+    display: flex;
+    background-color: #af91664f;
+    height: 600px;
+    width: 50%;
+    align-items: center;
+    margin-right: 400px;
+    margin-top: 33px;
+    border-radius: 21px;
+    border-style: solid;
+    border-color: #9b7e5361;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+}
+.name{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    margin-right: -10px
+}
+.email{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-right: 312px;
+    margin-top: 16px;
+}
+.phone{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-right: 312px;
+    margin-top: 16px;
+}
+.addr{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-right: 312px;
+    margin-top: 16px;
+}
+.buttons{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.acc{
+    font-weight: 900;
+    /* width: 70px; */
+    /* height: 70px; */
+    font-size: 83px;
+    margin-top: 10px;
+}
+.myacc{
+    height: 400px;
+    width: 400px;
+}
+.ue{
+    height: 45px;
+    width: 452px;
+    border-radius: 20px;
+    border:solid;
+    border-color: #8f6a33d4;
+}
+label{
+    font-size: 20px;
+    font-weight: bold;
+}
+.address{
+    height: 45px;
+    width: 452px;
+    border-radius: 20px;
+    border:solid;
+    border-color: #8f6a33d4;
+}
+.phonenum{
+    height: 45px;
+    width: 452px;
+    border-radius: 20px;
+    border:solid;
+    border-color: #8f6a33d4;
+}
+.save{
+    width: 100px;
+    height: 45px;
+    font-size: 24px;
+    border: solid;
+    border-radius: 15px;
+    border-color: #8f6a33d4;
+    margin-left: 50px;
+    cursor: pointer;
+}
+.cancel{
+    width: 100px;
+    height: 45px;
+    font-size: 24px;
+    border: solid;
+    border-radius: 15px;
+    border-color: #8f6a33d4;
+    cursor: pointer;
+
+}
+
+button :hover{
+
+    background-color: #8f6a33d4;
+    color: white;
+    border-color: black;
+}
+
+.first{
+    display: flex;
+    flex-direction: column;
+
+
+}
+.last{
+    display: flex;
+    flex-direction: column;
+    margin-right: -60px;
+
+
+}
+.fname{
+    height: 45px;
+    width: 180px;
+    border-radius: 20px;
+    border:solid;
+    border-color: #8f6a33d4;
+}
+.lname{
+    width: 180px;
+    height: 45px;
+    border-radius: 20px;
+    border:solid;
+    border-color: #8f6a33d4;
+}
+.fa-solid, .fas {
+    font-weight: 900;
+    color: #8f6a33e0;
+}
+/*input[type=submit] :hover{
+    background-color: #8f6a33d4;
+    color: white;
+    border-color: black;
+}*/
+
+
+.myaccountform{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

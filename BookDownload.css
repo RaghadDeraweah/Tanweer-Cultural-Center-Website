@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Calibri;
+
+    font-size: 20px;
+}
+h{font-weight: bold;}
+.cbook {
+    background-color:#8f6a335c;
+    transition: 0.5s;
+    color: white;
+}
+.cbook a{
+    color: white;
+}
+body {
+    background-image: url("img/img2.PNG");
+    background-size: cover;
+    margin:0;
+    padding: 0;
+    height:100%;
+}
+.navbar{
+    margin-top: 20px;
+    width: 80%;
+
+    display: flex;
+    align-items: center;
+    margin-right: 156px;
+
+}
+ul{
+    border-radius: 21px;
+    border-style: solid;
+    border-color: #9b7e5361;
+    flex: 1;
+    text-align: right;
+}
+
+ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 0 9px;
+    background-color: #ffffff38;
+    border-style: solid;
+    border-color: #9b7e5361;
+    border-radius: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+li:hover a{
+    transition: 0.5s;
+    color: white;
+}
+li:hover{
+    background-color:#8f6a335c;
+    transition: 0.5s;
+}
+ul li a{
+    text-decoration: none;
+    color: black;
+    font-family: Calibri;
+    font-size: 18pt;
+    font-weight: bold;
+}
+.content{
+    display: flex;
+    width: 79%;
+    flex-wrap: wrap;
+    /* align-items: center; */
+    margin-right: 163px;
+    border: 3px solid #9b7e537d;
+    border-radius: 31px;
+    padding: 2px;
+}
+.bookinfo{
+    display: flex;
+    margin: 0px;
+    flex-wrap: wrap;
+}
+.h1{
+
+}
+h3{
+
+}
+h3>a{
+  text-decoration: none;
+    color: #e56546;
+}
+.cover{
+    margin: 17px;
+}
+.details{
+    margin-top: 120px;
+    margin-right: 8px;
+}
+.buttons{
+    margin-top: 28px;
+}
+i{
+    color: white;
+    margin-right: 5px;
+}
+.b1{
+    background-color: black;
+    margin: 0px 10px;
+    border-radius: 7px;
+}
+.b2{
+    background-color: black;
+    margin: 0px 10px;
+    border-radius: 7px;
+}
+
+input:hover{
+
+    cursor: pointer;
+}
+
+input[type=submit] {
+    width: 77px;
+    color: white;
+    padding: 8px 10px;
+    margin: 0px 0px;
+    display: inline-block;
+    background-color: #000000;
+    box-sizing: border-box;
+}
+
+.intro{
+ margin: 15px;
+}
+.intro h1{
+    margin-bottom: 13px;
+    font-weight: bolder;
+    font-size: xx-large;
+
+}
+.intro p{
+    font-weight: bold;
+}

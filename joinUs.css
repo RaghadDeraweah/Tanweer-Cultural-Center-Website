@@ -1,0 +1,178 @@
+body {
+    background-image: url("img/img2.PNG");
+    background-size: cover;
+    margin:0;
+    padding: 0;
+    height:100%;
+
+}
+.navbar{
+    margin-top: 20px;
+    width: 80%;
+
+    display: flex;
+    align-items: center;
+    margin-right: 156px;
+
+}
+ul{
+    border-radius: 21px;
+    border-style: solid;
+    border-color: #9b7e5361;
+    flex: 1;
+    text-align: right;
+}
+
+ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 0 9px;
+    background-color: #ffffff38;
+    border-style: solid;
+    border-color: #9b7e5361;
+    border-radius: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+.joinus {
+    background-color:#8f6a335c;
+    transition: 0.5s;
+    color: white;
+}
+.joinus a{
+    color: white;
+}
+li:hover a{
+    transition: 0.5s;
+    color: white;
+}
+li:hover{
+    background-color:#8f6a335c;
+    transition: 0.5s;
+}
+ul li a{
+    text-decoration: none;
+    color: black;
+    font-family: Calibri;
+    font-size: 18pt;
+    font-weight: bold;
+}
+.login{
+    display: flex;
+    margin: auto;
+    width: 36%;
+    border: 4px solid #b79c4df2;
+    padding: 10px;
+    height: 577px;
+    border-radius: 22px;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(227 219 200 / 77%)
+
+}
+*{
+    box-sizing: border-box;
+}
+
+.userform{
+    width: 80%
+}
+.icon1{
+    height: 60px;
+    width: 60px;
+}
+.input-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: flex-end;
+}
+.icon2{
+    height: 60px;
+    width: 60px;
+}
+::placeholder{
+    font-family: Calibri;
+    font-size: 25px;
+}
+
+input{
+    padding: 20px;
+    margin-top: 60px;
+    width: 310px;
+    background-color: #824d4d2e;
+    border: solid;
+    border-color: #72602a94;
+    border-radius: 15px;
+    font-size:25px ;
+    font-family: Calibri;
+
+}
+.btn:hover{
+    background-color:#8f6a335c;
+    transition: 0.5s;
+    color: white;
+    cursor: pointer;
+}
+.btn{
+    font-family: Calibri;
+    background-color: #d7bb4eb5;
+    width: 315px;
+    height: 70px;
+    border: solid;
+    border-color: #72602a94;
+    border-radius: 15px;
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 45px;
+
+
+}
+.bb1{
+    margin-left: -78px;
+}
+.icon2{
+    width: 30%;
+    height: 60px;
+    width: 60px;
+    background-color: rgb(227 219 200 / 77%);
+    border: none;
+    margin-top: 46px;
+    margin-left: 12px;
+
+}
+.forgetpass{
+    text-decoration: none;
+    color: black;
+    margin-right: 34px;
+    font-size: 20px;
+    background: none;
+    border: none;
+    margin-top: 4px;
+    cursor: pointer;
+    padding: 1px;
+
+}
+.forgetpass :hover{
+    cursor: pointer;
+}
+.user{
+width: 100px;
+height: 135px;
+padding-top: 40px;
+padding-top: 40px;
+}
+.pass{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.apass{
+    margin-top: 10px;
+    margin-right: 60px;
+    font-size: 18px;
+    color: black;
+}

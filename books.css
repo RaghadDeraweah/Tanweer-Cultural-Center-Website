@@ -1,0 +1,221 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Calibri;
+
+    font-size: 20px;
+}
+h{font-weight: bold;}
+.cbook {
+    background-color:#8f6a335c;
+    transition: 0.5s;
+    color: white;
+}
+.cbook a{
+    color: white;
+}
+body {
+    background-image: url("img/img2.PNG");
+    background-size: cover;
+    margin:0;
+    padding: 0;
+    height:100%;
+}
+.navbar{
+    margin-top: 20px;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    margin-right: 46px;
+
+}
+ul{
+    border-radius: 21px;
+    border-style: solid;
+    border-color: #9b7e5361;
+    flex: 1;
+    text-align: right;
+}
+
+ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 0 9px;
+    background-color: #ffffff38;
+    border-style: solid;
+    border-color: #9b7e5361;
+    border-radius: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+li:hover a{
+    transition: 0.5s;
+    color: white;
+}
+li:hover{
+    background-color:#8f6a335c;
+    transition: 0.5s;
+}
+ul li a{
+    text-decoration: none;
+    color: black;
+    font-family: Calibri;
+    font-size: 18pt;
+    font-weight: bold;
+}
+
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    margin-right: 2px;
+}
+.vcontainer{
+    width: 15%;
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+}
+.search{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    padding-right: 5px;
+    margin-top: 22px;
+    margin-right: 66px;
+}
+.subnavbar{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    background-color: #afa38b87;
+    width: 250px;
+}
+i{
+    color: #ad7d1d;
+    /* padding-left: 10px; */
+    margin-left: 10px;
+}
+input{
+    width: 215px;
+    padding: 12px 25px;
+    /* margin: 8px 0; */
+    margin-top: -15px;
+    display: inline-block;
+    border: 1px solid #a18c62;
+    background-color: #ffffffde;
+    border-radius: 15px;
+    box-sizing: border-box;
+}
+.load{
+    width: 215px;
+    padding: 12px 25px;
+    /* margin: 8px 0; */
+    margin-top: -15px;
+    display: inline-block;
+    border: 1px solid #a18c62;
+    background-color: #ffffffde;
+    border-radius: 15px;
+    box-sizing: border-box;
+}
+.aa{
+    width: 215px;
+    padding: 12px 25px;
+    /* margin: 8px 0; */
+    margin-top: -15px;
+    display: inline-block;
+    border: 1px solid #a18c62;
+    background-color: #ffffffde;
+    border-radius: 15px;
+    box-sizing: border-box;
+}
+
+.booktype{
+    width: 250px;
+    padding: 48px 20px;
+    margin: 0px 0px;
+    background-color: rgba(217, 196, 170, 0.49);
+    color: #0c0c0c;
+    border: 1px solid;
+    border-color: #a18c62;
+    border-radius: 12px;
+    font-size: 30px;
+}
+
+.hcontainer{
+    display: flex;
+    width: 90%;
+    margin-top: 13px;
+    flex-wrap: wrap;
+    padding: 4px 0px;
+    margin-right: 40px;
+}
+.book{
+    width: 12%;
+    padding: 1px 12px;
+    /* margin: -9px -1px; */
+    margin-top: -9px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.load:hover .bookcover{
+    width: 150px;
+    height: 196px;
+
+}
+.bookcover{
+    width: 133px;
+    height: 191px;
+    margin-right: 43px;
+    border: 1px solid #8f6a338f;
+    padding: 3px;
+    border-radius: 20px;
+    margin-top: 12px;
+}
+a{
+    text-decoration: none;
+}
+
+.load {
+    width: 133px;
+    background-color: #a18c62;
+    color: #fffbf4;
+    padding: 7px 20px;
+    margin: 8px 0px;
+    margin-right: 47px;
+    border: 1px solid #a18c62;
+    border-radius: 24px;
+    cursor: pointer;
+}
+.load:hover{
+    color:#a18c62 ;
+    border-color: #a18c62;
+    background-color: rgba(217, 196, 170, 0.49);
+}
+
+
+.loada {
+    width: 95px;
+    background-color: #a18c62;
+    color: #fffbf4;
+    padding: 7px 20px;
+    margin: 8px 0px;
+    margin-right: 0px;
+    margin-right: 42px;
+    border: 1px solid #a18c62;
+    border-radius: 20px;
+    cursor: pointer;
+    text-align: center;
+}
+.loada:hover{
+    color:#a18c62 ;
+    border-color: #a18c62;
+    background-color: rgba(217, 196, 170, 0.49);
+}
